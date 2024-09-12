@@ -1,5 +1,7 @@
 # Escuela Colombiana de Ingeniería
 # Arquitecturas de Software - ARSW
+
+## Nombres: Juan Pablo Fernandez / Laura Valentina Rodríguez
 ### Taller – Principio de Inversión de dependencias, Contenedores Livianos e Inyección de dependencias.
 
 Parte I. Ejercicio básico.
@@ -26,3 +28,18 @@ Para ilustrar el uso del framework Spring, y el ambiente de desarrollo para el u
 	```
 	
 6.	Modifique la configuración con anotaciones para que el Bean ‘GrammarChecker‘ ahora haga uso del  la clase SpanishSpellChecker (para que a GrammarChecker se le inyecte EnglishSpellChecker en lugar de  SpanishSpellChecker. Verifique el nuevo resultado.
+
+Vamos agregar la clase de Main para poder compilar el proyecto
+![](img/Image0.jpeg)
+
+Realizamos la configuración de dependecias para English
+![](img/Image2.jpeg)
+
+Lo mismo para Spanish
+![](img/Image3.jpeg)
+
+Revisamos el bean de GrammarChecker
+![](img/Image4.jpeg)
+
+La respuesta será la siguiente:
+![](img/Image1.jpeg)
